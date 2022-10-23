@@ -35,7 +35,7 @@ body {
   flex-grow: 2;
   padding-top: 79px;
 }
-.link:nth-child(5) {
+.link:nth-last-child() {
   padding: 0px;
 }
 
