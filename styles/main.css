@@ -22,18 +22,19 @@ body {
   flex-wrap: wrap;
   width: 100%;
   background-color: #eeeff1;
-  min-height: 700px;
 }
 
 .flex {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  align-items: center;
+  width: 100%;
 }
 
 .header {
   flex-grow: 2;
-  padding-top: 79px;
+  padding-top: 50px;
 }
 .link:nth-last-child() {
   padding: 0px;
@@ -55,9 +56,15 @@ body {
   flex-grow: 1;
   max-width: 540px;
 }
-
+.main-size {
+  max-width: 700px;
+  width: 100%;
+  flex-grow: 1;
+  text-align: center;
+  color: blue;
+}
 .main-h1 {
-  padding-bottom: 60px;
+  padding: 60px 0;
   font-weight: 500;
   font-size: 48px;
   color: #000000;
@@ -207,4 +214,5 @@ iframe {
 /*footer end*/
 .page-img {
   width: 100%;
+  padding-bottom: 30px;
 }
